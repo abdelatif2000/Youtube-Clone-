@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color:white
+}
+body {
+   background: #181818;
+}
+svg.MuiSvgIcon-root.menuIcan{
+     margin-left: -10px;
+     display:none;
+}
+@media (max-width:659px ){
+    svg.MuiSvgIcon-root.menuIcan{
+        display:inline-block;
+    }
+}
+.containerSidBarContaint{
+    display: flex;
+
+}
+.styledvideos{
+    padding-left: 12px;
+}
+.showMoreText{
+    text-decoration: none;
+    display: block;
+    margin: 1rem 0;
+    color: #aaa;
+    font-weight: 500;
+}
+.content-css{
+    margin-top: 2rem;
+
+}
+
+
+
